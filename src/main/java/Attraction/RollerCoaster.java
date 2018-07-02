@@ -5,8 +5,8 @@ import Visitor.Visitor;
 
 public class RollerCoaster extends Attraction implements ISecurity{
 
-    public RollerCoaster(String name){
-        super(name);
+    public RollerCoaster(String name, int rating){
+        super(name, rating);
     }
 
     @Override

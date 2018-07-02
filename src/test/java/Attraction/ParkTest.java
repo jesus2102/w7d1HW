@@ -11,7 +11,7 @@ public class ParkTest {
 
     @Before
     public void before(){
-        park = new Park("Pirate's Bay");
+        park = new Park("Pirate's Bay", 5);
     }
 
     @Test

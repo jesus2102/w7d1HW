@@ -11,7 +11,7 @@ public class DodgemsTest {
 
     @Before
     public void before(){
-        dodgems = new Dodgems("Wild Buffalos");
+        dodgems = new Dodgems("Wild Buffalos", 6);
     }
 
     @Test

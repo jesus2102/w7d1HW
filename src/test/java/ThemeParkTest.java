@@ -14,8 +14,8 @@ public class ThemeParkTest {
     @Before
     public void before(){
         themePark = new ThemePark();
-        rollerCoaster = new RollerCoaster("Dragon Khan");
-        iceCreamStall = new IceCreamStall("Italian Cream", "Luiggi", "B26");
+        rollerCoaster = new RollerCoaster("Dragon Khan", 9);
+        iceCreamStall = new IceCreamStall("Italian Cream", "Luiggi", "B26", 8);
     }
 
     @Test
